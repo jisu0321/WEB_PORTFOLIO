@@ -9,6 +9,8 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap"
+		rel="stylesheet">
 
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/icomoon.css">
@@ -22,17 +24,19 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<link rel="stylesheet" href="./fonts/stylesheet.css">
 
 </head>
 
 <body>
-<div di="mainbanner">
-	<img src="./images/mainbanner.jpg">
-	<p data-aos="fade-up" data-aos-easing="ease-out-back" data-aos-duration="1000">2023</p><br>
-	<h1 data-aos="fade-up" data-aos-easing="ease-out-back" data-aos-duration="2000">PORTFOLIO</h1>
-	<h2 data-aos="fade-up" data-aos-easing="ease-out-back" data-aos-duration="3000">DESIGNER KIM JISU</h2>
-</div>
+	<div id="mainbanner">
+		<div>
+			<p data-aos="fade-up" data-aos-easing="ease-out-back" data-aos-duration="1000">2023</p><br>
+			<h1 data-aos="fade-up" data-aos-easing="ease-out-back" data-aos-duration="2000">PORTFOLIO</h1>
+			<h2 data-aos="fade-up" data-aos-easing="ease-out-back" data-aos-duration="3000">DESIGNER KIM JISU</h2>
+		</div>
+	</div>
 	<div class="fh5co-loader"></div>
 	<div id="cover">
 		<!--배경-->
@@ -47,6 +51,7 @@
 					</div>
 					<div class="row">
 						<div class="col-md-4">
+							<img class=photo src="./images/photo.jpg">
 							<ul class="info">
 								<li><span class="first-block">Name</span><span class="second-block">Kim Ji Su</span>
 								</li>
@@ -55,12 +60,10 @@
 								<li><span class="first-block">Email</span><span
 										class="second-block">inspiration96kim@naver.com</span>
 								</li>
-								<li><span class="first-block">Website</span><span
-										class="second-block">www.dothome.co.kr</span></li>
 							</ul>
 						</div>
 						<div class="col-md-8">
-							<h2>Epilogue</h2>
+							<h2>"뚜렷한 목표를 가진 성장의 아이콘"</h2>
 							<p>취미로 블로그를 하면서 자기계발, 일상, 대외활동등을 업로드하는데 흥미를 느꼈었습니다. 취미이지만 무엇이든 마음먹으면 진심으로 하는편이라 컨텐츠를 위해 다양한
 								컴퓨터 관련 자격증을 따게 되었고, 저의 블로그도 빠른 성장을 했습니다. 컴활1급, 워드1급, MOS MASTER, 포토샵1급을 따면서 자연스럽게 다양한
 								대외활동들로 저의 실력을 스스로 평가해 보면서 저의 방향성을 생각하게 되었습니다.<br><br>
@@ -82,40 +85,42 @@
 				<div class="container">
 					<div class="row animate-box">
 						<div class="col-md-12 text-center fh5co-heading">
-							<h2>PORTFOLIO</h2>
+							<h2>MY PROJECT</h2>
 						</div>
 					</div>
-					<div class="row">
-						<div class="col-md-6 text-center col-padding animate-box">
+					<div class="row flex_box">
+						<div class="col-md-5 text-center col-padding animate-box">
 							<a href="#" target="_blank">
-								<div href="#" class="work" style="background-image: url(images/portfolio-1.jpg);"></div>
+								<div href="#" class="work" style="background-image: url(./images/project1.jpg);"></div>
 								<div class="work_text">
 									<p class="pj1">Project1</p>
 									<p>BI&amp;BX Style Guide</p>
 								</div>
 							</a>
 						</div>
-						<div class="col-md-6 text-center col-padding animate-box">
+						<div class="col-md-5 text-center col-padding animate-box">
 							<a href="#" target="_blank">
-								<div href="#" class="work" style="background-image: url(images/portfolio-1.jpg);"></div>
+								<div href="#" class="work" style="background-image: url(./images/project2.jpg);"></div>
 								<div class="work_text">
 									<p class="pj1">Project1</p>
 									<p>Web Style Guide</p>
 								</div>
 							</a>
 						</div>
-						<div class="col-md-6 text-center col-padding animate-box">
+						<div class="col-md-5 text-center col-padding animate-box padding">
 							<a href="#" target="_blank">
-								<div href="#" class="work" style="background-image: url(images/portfolio-1.jpg);"></div>
+
+								<img src="./images/project3.jpg" alt="" width="100%">
+
 								<div class="work_text">
 									<p class="pj1">Project1</p>
 									<p>Site</p>
 								</div>
 							</a>
 						</div>
-						<div class="col-md-6 text-center col-padding animate-box">
+						<div class="col-md-5 text-center col-padding animate-box">
 							<a href="#" target="_blank">
-								<div href="#" class="work" style="background-image: url(images/portfolio-1.jpg);"></div>
+								<div href="#" class="work" style="background-image: url(./images/ebook.jpg);"></div>
 								<div class="work_text">
 									<p class="pj1">Project1</p>
 									<p>Video</p>
@@ -435,7 +440,9 @@
 
 		<!-- Main -->
 		<script src="js/main.js"></script>
-
+		<script>
+			AOS.init();
+		</script>
 </body>
 
 </html>

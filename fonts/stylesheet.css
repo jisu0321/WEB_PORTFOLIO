@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Leferi Point Type Special';
+    src: url('LeferiPoint-Special.eot');
+    src: url('LeferiPoint-Special.eot?#iefix') format('embedded-opentype'),
+        url('LeferiPoint-Special.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'white';
+    src: url('LeferiPoint-WhiteA.eot');
+    src: url('LeferiPoint-WhiteA.eot?#iefix') format('embedded-opentype'),
+        url('LeferiPoint-WhiteA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'NT Josefine';
+    src: url('NTJosefine.eot');
+    src: url('NTJosefine.eot?#iefix') format('embedded-opentype'),
+        url('NTJosefine.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
