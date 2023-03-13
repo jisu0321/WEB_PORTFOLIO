@@ -66,13 +66,20 @@ body {
 
 
 }
-
+#mainbanner div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
 #mainbanner p {
   font-family: 'NT Josefine';
   text-align: center;
   font-size: 104px;
   color: #e6facb;
-  padding-top: 287px;
+
+  margin: 0;
+  line-height: 100%;
 
 }
 
@@ -88,9 +95,36 @@ body {
   text-align: center;
   font-size: 88px;
   color: white;
+  padding-top: 20px;
 
 }
+@media (max-width:910px){
+  #mainbanner h1 {
+    
+    font-size: 80px;
+  }
+  #mainbanner h2 {
+    font-size: 50px;
+  }
+}
 
+@media (max-width:600px){
+  #mainbanner p {
+    font-size: 80px;
+  }
+  #mainbanner h1 {
+    
+    font-size: 50px;
+    line-height: 100%;
+    padding:0;
+    margin: 0;
+  }
+  #mainbanner h2 {
+    padding-top:30px;
+    line-height: 100%;
+    font-size: 30px;
+  }
+}
 
 
 
@@ -128,7 +162,7 @@ body {
 }
 
 a {
-  color: #bcd2e9;
+  color: #7db4df;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -137,7 +171,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #bcd2e9;
+  color: #7db4df;
   outline: none;
   text-decoration: none;
 }
@@ -177,7 +211,7 @@ figure {
   bottom: 0;
   left: 0;
   right: 0;
-  background: #bcd2e9;
+  background: #7db4df;
 }
 
 #fh5co-header .display-t,
@@ -417,7 +451,7 @@ figure {
 }
 
 .fh5co-bg-dark {
-  background: #bcd2e9;
+  background: #7db4df;
   background: #FF9000;
 }
 
@@ -518,7 +552,7 @@ figure {
 }
 
 #fh5co-about .fh5co-social-icons li a:hover {
-  background: #bcd2e9;
+  background: #7db4df;
 }
 
 .fh5co-heading {
@@ -533,7 +567,7 @@ figure {
   font-size: 40px;
   margin-bottom: 20px;
   line-height: 1.5;
-  color: #bcd2e9;
+  color: #7db4df;
   font-family: 'Leferi Point Type Special';
 }
 
@@ -670,7 +704,7 @@ figure {
   top: 40px;
   left: 50%;
   margin-left: -21px;
-  background-color: #bcd2e9;
+  background-color: #7db4df;
   z-index: 100;
   display: table;
   -webkit-border-radius: 50%;
@@ -810,33 +844,34 @@ figure {
   float: left;
   height: 5px;
   box-shadow: none;
+  background-color: #ccc;
 }
 
 .progress-bar {
-  background-color: #bcd2e9;
+  background-color: #7db4df;
   height: 5px;
   display: block;
   box-shadow: none;
 }
 
 .progress-bar.progress-bar-1 {
-  background-color: #bcd2e9 !important;
+  background-color: #7db4df !important;
 }
 
 .progress-bar.progress-bar-2 {
-  background-color: #bcd2e9 !important;
+  background-color: #7db4df !important;
 }
 
 .progress-bar.progress-bar-3 {
-  background-color: #bcd2e9 !important;
+  background-color: #7db4df !important;
 }
 
 .progress-bar.progress-bar-4 {
-  background-color: #bcd2e9 !important;
+  background-color: #7db4df !important;
 }
 
 .progress-bar.progress-bar-5 {
-  background-color: #bcd2e9 !important;
+  background-color:#7db4df !important;
 }
 
 .chart {
@@ -1181,7 +1216,7 @@ figure {
   padding: 50px 0;
   float: left;
   width: 100%;
-  background-color: #bcd2e9;
+  background-color: #7db4df;
   color: white;
 }
 
@@ -1331,7 +1366,7 @@ input[type="text"] {
 }
 
 .btn-primary {
-  background: #bcd2e9;
+  background: #7db4df;
   color: #fff;
   border: 2px solid #FF9000;
 }
@@ -1383,28 +1418,28 @@ input[type="text"] {
 }
 
 .btn-info {
-  background: #bcd2e9;
+  background: #7db4df;
   color: #fff;
-  border: 2px solid #5bc0de;
+  border: 2px solid #7db4df;
 }
 
 .btn-info:hover,
 .btn-info:focus,
 .btn-info:active {
-  background: #46b8da !important;
-  border-color: #46b8da !important;
+  background: #7db4df !important;
+  border-color: #7db4df !important;
 }
 
 .btn-info.btn-outline {
   background: transparent;
   color: #5bc0de;
-  border: 2px solid #5bc0de;
+  border: 2px solid #7db4df;
 }
 
 .btn-info.btn-outline:hover,
 .btn-info.btn-outline:focus,
 .btn-info.btn-outline:active {
-  background: #5bc0de;
+  background: #7db4df;
   color: #fff;
 }
 
@@ -1602,8 +1637,11 @@ input[type="text"] {
 }
 
 .work_text {
-  background-color: #fff;
   padding: 0.7em 0;
+}
+.work_text p{
+  color:white;
+  text-align: left;
 }
 
 .work_text h3 {
@@ -1648,8 +1686,8 @@ input[type="text"] {
 }
 
 .fh5co-bg-dark {
-  background: #bcd2e9;
-  background: #bcd2e9;
+  background: #7db4df;
+  background:#7db4df;
 }
 
 .row-pb-md {
